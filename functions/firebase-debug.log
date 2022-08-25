@@ -1,0 +1,40 @@
+[debug] [2022-08-24T13:01:25.719Z] ----------------------------------------------------------------------
+[debug] [2022-08-24T13:01:25.721Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\OlalaV\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-24T13:01:25.722Z] CLI Version:   11.8.0
+[debug] [2022-08-24T13:01:25.722Z] Platform:      win32
+[debug] [2022-08-24T13:01:25.723Z] Node Version:  v16.16.0
+[debug] [2022-08-24T13:01:25.726Z] Time:          Wed Aug 24 2022 16:01:25 GMT+0300 (East Africa Time)
+[debug] [2022-08-24T13:01:25.727Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-24T13:01:25.740Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-24T13:01:25.741Z] > authorizing via signed-in user (olalavictor01@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\xampp\htdocs\firebase\functions
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-24T13:13:02.357Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-08-24T13:13:12.767Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2022-08-24T13:13:17.838Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\OlalaV\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
